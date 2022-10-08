@@ -1,0 +1,58 @@
+
+.how_myitura_works{
+    background-color: var(--default-white);
+    padding: 1.3rem 0;
+}
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0 2.5rem;
+}
+
+h3.spaced_caption_header{
+    color: var(--grey);
+    letter-spacing: 10px;
+    font-size: 1rem;
+}
+
+.step_by_step_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px 0 10px;
+    text-align: center;
+    color: var(--grey);
+}
+
+.icon_box{
+    background-color: var(--grey);
+    color: var(--default-white);
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.step_box p{
+    max-width: 150px;
+}
+
+
+
+/* MEDIA QUERY BELOW MOBILE*/
+
+@media screen and (max-width:600px){        
+
+    .step_by_step_box{
+        flex-direction: column;
+    }
+}

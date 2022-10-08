@@ -1,0 +1,80 @@
+/* hero / adcopy section */
+
+.hero_section{
+    padding-top: 5em;
+}
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0 2.5rem;
+}
+
+.ad_copy_text{
+    font-size: 1.9rem;
+    line-height: 190%;
+    padding: 1.5em 0 1rem;
+}
+
+.head_title{
+    color: var(--primary-green);
+}
+
+.description{
+    font-size: 1.4rem;
+    max-width: 500px;
+    line-height: 130%;
+    padding: 20px 0;
+    color: var(--grey);
+}
+
+.hero_cta_box {
+    margin: auto;
+}
+
+.hero_cta_box button{
+    border: none;
+    outline: none;
+    margin: 10px 10px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.hero_cta_box button a{
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+}
+
+.hero_cta_box button:active{
+    outline: none;
+    border: none;
+}
+
+.btn_primary_green a{
+    color: var(--white);
+    background-color: var(--primary-green);
+}
+
+.btn_primary_green a:hover{
+    color: var(--primary-green);
+    background-color: var(--white);
+    border: 2px solid var(--primary-green);
+}
+
+.btn_secondary a{
+    color: var(--primary-green);
+    background-color: var(--white);
+    border: 2px solid var(--primary-green);
+}
+
+.btn_secondary a:hover{
+    color: var(--white);
+    background-color: var(--primary-green);
+}

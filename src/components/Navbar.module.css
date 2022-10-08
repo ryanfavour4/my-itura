@@ -1,0 +1,145 @@
+/* top nav styling */
+
+.top_nav_box{
+    background-color: var(--default-white);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 3px 3px var(--grey);
+}
+
+.flex_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_box{
+    display: none;
+    /* opt off menu icon for desktop */
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.logo a{
+    text-decoration: none;
+    color: var(--secondary-green);
+}
+
+.grey_text{
+    color: var(--grey);
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.link{
+    margin: 0 20px;
+}
+
+.link a{
+    color: var(--grey);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.link a:hover{
+    color: var(--primary-green);
+}
+
+.cart_box{
+    position: relative;
+}
+
+.item_count{
+    background-color: var(--danger);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    min-width: 20px;
+    min-height: 20px;
+    aspect-ratio: 1/1;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+}
+
+.cart_box .icon{
+    font-size: 2.1em;
+    cursor: pointer;
+}
+
+
+
+/* MEDIA QUERY BELOW MOBILE*/
+
+@media screen and (max-width:600px){        
+    .menu_box{
+        display: block;
+    }
+
+    .menu_icon{
+        font-size: 2rem;
+        margin-top: 5px;
+        color: var(--grey);
+        cursor: pointer;
+    }
+
+    .links_box{
+        position: absolute;
+        background-color: var(--default-white);
+        width: 55vw;
+        height: 100vh;
+        top: 5.9em;
+        left: 0;
+        transform: translateX(-100vw);
+        z-index: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-right: 2px groove var(--primary-green);
+        transition: 0.25s ease-in;
+    }
+    .nav_links{
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        margin-top: -50%;
+    }
+    .link{
+        width: 100%;
+        text-align: center;
+    }
+    .link a{
+        width: 100%;
+        display: inline-block;
+        transition:all 0.25s ease;
+        padding-left: 20px;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .link a:hover{
+        background-color: var(--primary-green);
+        padding-left: 100px;
+        color: var(--default-white);
+    }
+
+}

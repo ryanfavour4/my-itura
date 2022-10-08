@@ -1,0 +1,35 @@
+ .test_package{
+    background-color: var(--default-white);
+    box-shadow: 2px 2px 2px 3px var(--grey);
+    padding: 1.3em ;
+    width: 95%;
+    max-width:400px;
+    border-radius: 10px;
+}
+
+h2.package_name{
+    font-weight: 500;
+    color: var(--secondary-green);
+}
+
+p.package_desc{
+    margin: 18px 0;
+    line-height: 170%;
+    color: var(--grey);
+}
+
+h3.package_price{
+    font-size: 1.1rem;
+    margin: 2rem 0 1.5rem;
+}
+
+button.add_to_cart_btn{
+    background-color: var(--primary-green);
+    border: none;
+    outline: none;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    color: var(--default-white);
+    font-weight: 600;
+    cursor: pointer;
+}

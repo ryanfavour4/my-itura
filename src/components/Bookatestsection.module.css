@@ -1,0 +1,104 @@
+
+/* book_a_test_section */
+
+.view_package_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 4em 0 6em;
+    font-size: 1em;
+}
+
+.view_package_box h3.view_package_description{
+    color: var(--grey);
+    line-height: 180%;
+    margin: 0.5rem 0 3rem;
+    letter-spacing: 2px;
+}
+
+.package_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px 1px var(--grey);
+}
+
+.gender_packages_flex_box{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 3em;
+}
+
+.packages_img_box img,.packages_img_box{
+    max-width: 450px;
+    height:400px;
+    object-fit: cover;
+}
+
+
+.package_card_bottom{
+    background-color: var(--default-white);
+    width: 100%;
+    height: 11em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.package_card_bottom p.health_test{
+    color: var(--grey);
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+}
+
+.package_btn{
+    border: none;
+    outline: none;
+}
+.package_btn:active{
+    border: none;
+    outline: none;
+}
+
+.package_btn a{
+    background-color: var(--primary-green);
+    color: var(--default-white);
+    font-size: 0.95rem;
+    text-decoration: none;
+    padding: 11px 16px;
+    border-radius: 8px;
+}
+
+
+
+/* MEDIA QUERY BELOW */
+
+@media screen and (max-width:1000px){
+    .gender_packages_flex_box{
+        flex-direction:column
+    }
+    .view_package_box h3.view_package_description{
+        font-size:1rem;
+        line-height:130%;
+        padding:0 20px;
+    }
+}
+
+
+/* MEDIA QUERY BELOW MOBILE*/
+
+@media screen and (max-width:600px){        
+    .packages_img_box img,.packages_img_box{
+        max-width: 300px;
+        height:300px;
+        object-fit: cover;
+    }
+}

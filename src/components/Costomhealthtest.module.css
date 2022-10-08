@@ -1,0 +1,40 @@
+/* customhealthtests */
+
+.customhealthtests{
+    background-color: var(--default-white);
+    padding: 3rem 0;
+}
+
+.custom_health_tests_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4.custom_health_description{
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--grey);
+    line-height: 170%;
+    letter-spacing: 1.9px;
+    margin: 1.5em 0 3.5em;
+}
+
+.test_packages_box_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    width: 100%;
+    justify-items:center ;
+    gap: 30px 20px;
+}
+
+a.view_all_test{
+    margin: 4em 0;
+    border: 2px solid var(--primary-green);
+    padding: 0.8em;
+    border-radius: 10px;
+    color: var(--primary-green);
+    font-weight: 500;
+    background: transparent;
+}
