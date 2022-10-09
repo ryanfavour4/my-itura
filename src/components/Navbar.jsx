@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState } from "react";
 import styles from "./Navbar.module.css";
 import { FaShoppingBag } from "react-icons/fa";
@@ -21,18 +22,18 @@ const Navbar = () => {
                 </div>
                 <div className={styles.logo_box}>
                     <h2 className={styles.logo}>
-                        <a href="/">
+                        <Link to="/">
                             <span className={styles.grey_text}>
                                 My</span>Itura
-                        </a>
+                        </Link>
                     </h2>
                 </div>
                 <div className={`${styles.links_box} ${slide}`}>
                     <ul className={styles.nav_links}>
-                        <li className={styles.link}><a href="/">Lab</a></li>
-                        <li className={styles.link}><a href="/">Packages</a></li>
-                        <li className={styles.link}><a href="/">Support</a></li>
-                        <li className={styles.link}><a href="/">Blog</a></li>
+                        <li className={styles.link}><Link to="/">Lab</Link></li>
+                        <li className={styles.link}><Link to="/">Packages</Link></li>
+                        <li className={styles.link}><Link to="/">Support</Link></li>
+                        <li className={styles.link}><Link to="/">Blog</Link></li>
                     </ul>
                 </div>
                 <div className={styles.cart_box}>

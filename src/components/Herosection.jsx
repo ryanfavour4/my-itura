@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './Herosection.module.css'
 
 const Herosection = () => {
@@ -17,14 +18,14 @@ const Herosection = () => {
             </div>
             <div className={styles.hero_cta_box}>
                 <button className={styles.btn_primary_green}>
-                    <a href="#book_a_test">
+                    <Link to="#book_a_test">
                         BOOK A TEST
-                    </a>
+                    </Link>
                 </button>
                 <button className={styles.btn_secondary}>
-                    <a href="#chat_a_doctor">
+                    <Link to="#chat_a_doctor">
                         CHAT WITH A DOCTOR
-                    </a>
+                    </Link>
                 </button>
             </div>
         </div>

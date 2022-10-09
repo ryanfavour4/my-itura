@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './Costomhealthtest.module.css'
 import Package from './Package';
 
@@ -19,7 +20,7 @@ const Costomhealthtest = () => {
                         <Package/>
 
                     </div>
-                    <a href="/" className={styles.view_all_test}>VIEW ALL TESTS</a>
+                    <Link to="/" className={styles.view_all_test}>VIEW ALL TESTS</Link>
                 </div>
             </div>
         </section>

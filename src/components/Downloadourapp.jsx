@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './Downloadourapp.module.css'
 
 const Downloadourapp = () => {
@@ -12,12 +13,12 @@ const Downloadourapp = () => {
                                     Book your health test, get your test results and consult a doctor - all on the <b>MYITURA APP</b>
                                 </p>
                                 <div className={styles.download_btns_box}>
-                                        <a href="/" target="_blank" className={styles.download_link}>
+                                        <Link to="/" target="_blank" className={styles.download_link}>
                                             <img src="./Images/apple_download_btn.png" alt=""/>
-                                        </a>
-                                        <a href="/" target="_blank" className={styles.download_link}>
+                                        </Link>
+                                        <Link to="/" target="_blank" className={styles.download_link}>
                                             <img src="./Images/googleplay_download_btn.png" alt=""/>
-                                        </a>
+                                        </Link>
                                 </div>
                         </div>
                         <div className={styles.female_doctor_img_box}>

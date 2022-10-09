@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import style from './Bookatestsection.module.css'
 
 const Bookatestsection = () => {
@@ -5,7 +6,7 @@ const Bookatestsection = () => {
         <section id="book_a_test_section">
             <div className={style.container}>
                 <div className={style.view_package_box}>
-                    <a href="/" id="book_a_test"></a>
+                    <Link to="/" id="book_a_test"></Link>
                     <h3 className={style.view_package_description}>
                         Diagnostic health test and screening made easy for you<br/>Get vital and accurate information about your health
                     </h3>
@@ -19,7 +20,7 @@ const Bookatestsection = () => {
                                     Male Health Tests
                                 </p>
                                 <button className={style.package_btn}>
-                                    <a href="/" id="male_package_link">VIEW PACKAGE</a>
+                                    <Link to="/" id="male_package_link">VIEW PACKAGE</Link>
                                 </button>
                             </div>
                         </div>
@@ -33,7 +34,7 @@ const Bookatestsection = () => {
                                     Female Health Tests
                                 </p>
                                 <button className={style.package_btn}>
-                                    <a href="/" id="female_package_link">VIEW PACKAGE</a>
+                                    <Link to="/" id="female_package_link">VIEW PACKAGE</Link>
                                 </button>
                             </div>
                         </div>
