@@ -18,9 +18,9 @@ const Herosection = () => {
             </div>
             <div className={styles.hero_cta_box}>
                 <button className={styles.btn_primary_green}>
-                    <Link to="#book_a_test">
+                    <a href="#book_a_test">
                         BOOK A TEST
-                    </Link>
+                    </a>
                 </button>
                 <button className={styles.btn_secondary}>
                     <Link to="#chat_a_doctor">

@@ -3,6 +3,7 @@
 
 .download_our_app{
     background-color: var(--white);
+    padding-bottom: 6em;
 }
 
 .flex_box_download_app{
@@ -90,7 +91,23 @@
         background-color: var(--primary-green);
     }
     .green_bg_download_box{
-        padding: 2em;
+        padding: 0em;
         width: 100%;
+    }
+    .green_bg_download_box h1.heading{
+        text-align: center;
+        width: 100%;
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 1em 0;
+    }
+    
+    .green_bg_download_box p.description{
+        text-align: center;
+        padding-right: 0;
+    }
+    .download_btns_box{
+        margin-top: 1.5em;
+        justify-content: center;
     }
 }

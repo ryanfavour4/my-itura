@@ -1,7 +1,7 @@
 
 .how_myitura_works{
     background-color: var(--default-white);
-    padding: 1.3rem 0;
+    padding: 2.3rem 0;
 }
 
 .flex_center{
@@ -15,7 +15,9 @@
 
 h3.spaced_caption_header{
     color: var(--grey);
+    text-align: center;
     letter-spacing: 10px;
+    margin-left: 10px;
     font-size: 1rem;
 }
 
@@ -27,6 +29,7 @@ h3.spaced_caption_header{
     margin: 40px 0 10px;
     text-align: center;
     color: var(--grey);
+    gap: 1.5em;
 }
 
 .icon_box{

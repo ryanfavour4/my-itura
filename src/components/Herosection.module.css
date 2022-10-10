@@ -14,17 +14,19 @@
 }
 
 .ad_copy_text{
-    font-size: 1.9rem;
-    line-height: 190%;
-    padding: 1.5em 0 1rem;
+    font-size: 1.9rem !important;
+    line-height: 190% !important;
+    padding: 1.5em 0 1rem !important;
 }
 
 .head_title{
-    color: var(--primary-green);
+    color: var(--primary-green) !important;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .description{
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
     max-width: 500px;
     line-height: 130%;
     padding: 20px 0;

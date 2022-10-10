@@ -14,11 +14,12 @@
 
 h4.custom_health_description{
     text-align: center;
-    font-size: 1.1rem;
     color: var(--grey);
     line-height: 170%;
     letter-spacing: 1.9px;
     margin: 1.5em 0 3.5em;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .test_packages_box_grid{
